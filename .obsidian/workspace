@@ -1,0 +1,141 @@
+{
+  "main": {
+    "id": "02af0c5d81611b7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8b389f3c5dc74bdc",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "NodeJS.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9e8b0bc0ddde6577",
+    "type": "split",
+    "children": [
+      {
+        "id": "e65ec073545b27ce",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb6c985573988b16",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "bbae5a8595d07e68",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d76b35e6e91f44a7",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 118.5
+  },
+  "right": {
+    "id": "dad378f0a096b347",
+    "type": "split",
+    "children": [
+      {
+        "id": "bcbdd510e9387c4e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1c2fa669834dc6da",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NodeJS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d430f1a9ba4e2fa7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NodeJS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "248042e0c1254cd9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "576fec36c6bad092",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NodeJS.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "8b389f3c5dc74bdc",
+  "lastOpenFiles": [
+    "JS.md",
+    "NodeJS.md",
+    "ReactJS.md",
+    "test.md",
+    "JQUERY.md",
+    "HTML and CSS.md",
+    "JINJA.md"
+  ]
+}

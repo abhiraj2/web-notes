@@ -50,6 +50,8 @@ They can also be event handlers.
 * `slice()` creates a copy of the original array so that it remains unchanged. You can give start and end index also as parameters
 * `splice(start, number of elements to delete, arr)` It will change the og array from start to the number of terms with arr
 * `sort()` sorts the array in lexicographical order. You can pass another function inside the sort function and it'll work like key in python
+* Sometimes you will encounter array-like objects that you want to treat as Arrays, in order to do something like that, you need to use `Array.prototype.slice.call(event.target.files)`
+* 
 *The key implementation is not like Python. It does not work on boolean values. It works on Positive or negative values. If result is negative then swap. Otw keep it as is*
 
 ### Strings
