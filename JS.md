@@ -42,7 +42,8 @@ They can also be event handlers.
 ### Array
 *Partial initialization is always undefined for the rest of the values*
 *All the elements in an array are stored internally as a string*
-* `push()` appends
+* `push()` appends into same array
+* `concat()` makes a copy appends and returns new 
 * `unshift` prepends
 * `pop()` deletes the last element and returns the value
 * `shift()` deletes the first element and returns the value
@@ -51,8 +52,9 @@ They can also be event handlers.
 * `splice(start, number of elements to delete, arr)` It will change the og array from start to the number of terms with arr
 * `sort()` sorts the array in lexicographical order. You can pass another function inside the sort function and it'll work like key in python
 * Sometimes you will encounter array-like objects that you want to treat as Arrays, in order to do something like that, you need to use `Array.prototype.slice.call(event.target.files)`
-* 
+* `Array.forEach(func)` works very similar to the map function, but doesn't return a new array
 *The key implementation is not like Python. It does not work on boolean values. It works on Positive or negative values. If result is negative then swap. Otw keep it as is*
+
 
 ### Strings
 Functions
@@ -146,3 +148,4 @@ It is the process of having only one event handler that handles all events of a 
 * `JSON.parse(string)`
 * `JSON.stringify(obj)`
 
+*Destructuring an object requires the variable to be the same name as the keys otw undefined*
